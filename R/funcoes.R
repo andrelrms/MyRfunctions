@@ -17,6 +17,7 @@ centroid <- function(x, pos = 'both'){
 
 
 addUnits <- function(n) {
+  # credits to https://5harad.com/mse125/r/visualization_code.html
   labels <- ifelse(n < 1000, n,  # less than thousands
                    ifelse(n < 1e6, paste0(round(n/1e3), 'k'),  # in thousands
                           ifelse(n < 1e9, paste0(round(n/1e6), 'M'),  # in millions
