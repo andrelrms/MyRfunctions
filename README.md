@@ -1,1 +1,1 @@
-Personal packages with functions that I use often.
+Personal package with functions that I use often.
