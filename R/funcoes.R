@@ -1,7 +1,3 @@
-library(tidyverse)
-library(readxl)
-library(brazilmaps)
-library(gridExtra)
 
 centroid <- function(x, pos = 'both'){
   unlist_geom <- unlist(x)
@@ -15,7 +11,7 @@ centroid <- function(x, pos = 'both'){
   if(pos=='y'){
     ret_coord <- y_coord
   }
-  
+
   return(ret_coord)
 }
 
